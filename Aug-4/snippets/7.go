@@ -28,14 +28,6 @@ func (b Bus) Rest() string {
 	return "Bzzzzz!"
 }
 
-func printDrive(v Vehicle) {
-	fmt.Println(v.Drive())
-}
-
-func printRest(v Vehicle) {
-	fmt.Println(v.Rest())
-}
-
 func (c Car) Drive() string {
 	return "Carrrr!"
 }

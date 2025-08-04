@@ -1,7 +1,7 @@
 package main
 
 import (
-	"day1/snippets"
+	"Jul-30/snippets"
 	"fmt"
 )
 
