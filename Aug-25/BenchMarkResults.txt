@@ -1,0 +1,15 @@
+goos: darwin
+goarch: amd64
+pkg: Aug-25/counter
+cpu: VirtualApple @ 2.50GHz
+BenchmarkCountWords-8                595           2112932 ns/op
+BenchmarkCountWords2-8               560           2083948 ns/op
+PASS
+ok      Aug-25/counter  34.328s
+
+
+1. Using the strings package function 
+BenchmarkCountWords-8                595           2112932 ns/op
+
+2. Using my own custom function
+BenchmarkCountWords2-8               560           2083948 ns/op
